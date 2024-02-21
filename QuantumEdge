@@ -1,4 +1,4 @@
-import qrcode # 1
+import qrcode # 
 data = 'https://www.example.com'
 img = qrcode.make(data)
 img.save('qrcode.png')
